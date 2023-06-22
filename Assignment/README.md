@@ -39,6 +39,7 @@ Note: The algorithm may involve several data structures and you can omit the des
 PS: Please feel free to describe an even faster algorithm instead, e.g., the O(m + n log n) algorithm proposed by Gabow, Galil, Spencer, and Tarjan in 1986. If you choose to do so, you don't need to describe the attached O(m log n) algorithm anymore, but please follow the same requirements as shown above.
 
 **Score**: 8/10
+请具体解释什么是左偏树当合并堆时不能暴力对所有边判断，要先打上懒标记（lazy tag）可并堆合并后要解释为什么能保持 O(logn) 的深度请结合代码来具体分析时间复杂度
 
 ***
 
